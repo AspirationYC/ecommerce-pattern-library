@@ -15,3 +15,7 @@ patternbot:
       Philosopher was selected because the edge of the font are curved and that looks like a sword. It is only to be used for title, headings, buttons, and banners.
     colors.primary: |
       The primary colour represents the burning passion from the audience because they really want to buy weapons. Also, there are new weapons every week.
+    colors.accent: |
+      The accent colours are only used to hovering buttons and links.
+    colors.neutral: |
+      The neutral colour is only used for background.
