@@ -8,6 +8,7 @@ patternbot:
   font-url: "https://fonts.googleapis.com/css?family=Open+Sans|Philosopher"
   colors:
     background: "--color-dark"
+    accent: "--color-primary"
     patterns:
       brand.logos: "--color-neutral"
       brand.colors: "--color-neutral"
