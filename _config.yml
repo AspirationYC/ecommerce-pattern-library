@@ -10,7 +10,7 @@ patternbot:
     background: "--color-dark"
     patterns:
       brand.logos: "--color-neutral"
-      brand.colours: "--color-neutral"
+      brand.colors: "--color-neutral"
       brand.typefaces: "--color-neutral"
   rationales:
     typefaces.primary: |
