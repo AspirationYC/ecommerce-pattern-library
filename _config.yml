@@ -10,6 +10,8 @@ patternbot:
     background: "--color-dark"
     patterns:
       brand.logos: "--color-neutral"
+      brand.colours: "--color-neutral"
+      brand.typefaces: "--color-neutral"
   rationales:
     typefaces.primary: |
       Open Sans was selected because it is a typeface that is easy to read and clean. The typeface is only used for body copy.
