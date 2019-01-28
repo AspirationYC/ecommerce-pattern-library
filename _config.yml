@@ -8,6 +8,7 @@ patternbot:
   font-url: "https://fonts.googleapis.com/css?family=Open+Sans|Philosopher"
   colors:
     background: "--color-neutral"
+    accent: "--color-black"
   rationales:
     typefaces.primary: |
       Open Sans was selected because it is a typeface that is easy to read and clean. The typeface is only used for body copy.
