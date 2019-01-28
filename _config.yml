@@ -7,7 +7,7 @@ patternbot:
     Flaminsou is an online shop that sell weird and one of a kind weapons to people who collect weapons for display purpose.
   font-url: "https://fonts.googleapis.com/css?family=Open+Sans|Philosopher"
   colors:
-    background: "--color-light-grey"
+    background: "--color-neutral"
   rationales:
     typefaces.primary: |
       Open Sans was selected because it is a typeface that is easy to read and clean. The typeface is only used for body copy.
