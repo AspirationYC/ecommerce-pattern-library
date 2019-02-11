@@ -7,6 +7,7 @@ patterns:
     title: "Text"
     description: |
       Text input is only need when it doesn't need a place holder. (i.e. Full Name)
+    width: "12em"
   email:
     title: "E-mail"
     description: |
