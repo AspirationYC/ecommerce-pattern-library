@@ -3,15 +3,19 @@ description: |
   Forms should only be used for checkout page.
 
 patterns:
+  text:
     title: "Text"
     description: |
       Text input is only need when it doesn't need a place holder. (i.e. Full Name)
+  e-mail:
     title: "E-mail"
     description: |
       E-mail or any other inputs that can have a place holder.
+  radio:
     title: "Radio"
     description: |
       Radio buttons are only needed when the user is selecting an option for payment.
+  error-messages:
     title: "Error Message"
     description: |
       A pop up message when there is an error in the form.
