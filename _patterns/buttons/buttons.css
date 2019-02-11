@@ -20,9 +20,3 @@
   border-color: var(--color-hover);
   color: var(--color-white);
 }
-
-.btn-light {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-white);
-}
