@@ -7,7 +7,7 @@ patterns:
     title: "Text"
     description: |
       Text input is only need when it doesn't need a place holder. (i.e. Full Name)
-  e-mail:
+  email:
     title: "E-mail"
     description: |
       E-mail or any other inputs that can have a place holder.
