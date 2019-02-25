@@ -1,0 +1,17 @@
+title: "Navigations"
+description: |
+  Navigations should only be used to navigate to a certain page or to the top of the page.
+
+patterns:
+  back-to-top:
+    title: "Back to Top"
+    description: |
+      Back to Top navigation is located at the bottom of a page. It brings the user to the top of the page.
+  breadcrumb:
+    title: "Breadcrumb"
+    description: |
+      Breadcrumb is graphical element used in website to allow the users to keep track and maintain awareness to where they are located on a web page.
+  paginator:
+    title: "Paginator"
+    description: |
+    Paginator is located at the bottom of a page. It can navigate users to previous page, next page, or to a certain page number.
