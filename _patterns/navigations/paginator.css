@@ -1,0 +1,9 @@
+.paginator-list {
+  padding: .25em;
+  border-radius: 3px;
+  background-color: var(--color-primary);
+}
+
+.paginator-list:hover {
+  background-color: var(--color-hover);
+}
