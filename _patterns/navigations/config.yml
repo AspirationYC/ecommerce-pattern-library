@@ -14,4 +14,4 @@ patterns:
   paginator:
     title: "Paginator"
     description: |
-    Paginator is located at the bottom of a page. It can navigate users to previous page, next page, or to a certain page number.
+      Paginator is located at the bottom of a page. It can navigate users to previous page, next page, or to a certain page number.
