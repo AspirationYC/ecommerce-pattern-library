@@ -1,0 +1,27 @@
+.about-info {
+  max-width: 50em;
+}
+
+.btn-cart {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-cart:hover {
+  background-color: var(--color-hover);
+  border-color: var(--color-hover);
+}
+
+.title-detail {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.content-detail {
+  color: var(--color-black);
+}
+
+.price-style {
+  color: var(--color-primary);
+}

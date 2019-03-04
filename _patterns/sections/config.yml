@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  Sections contain different group of content. It is only used for a specific purpose, such as detail information for each weapon or the introduction of the company.
+
+patterns:
+  details:
+    title: "Detail Lists"
+    description: |
+      Detail Lists are only needed after the user click on a specific weapon. It will show the name, description, price, and a button to buy.
+  intro:
+    title: "Intro"
+    description: |
+      Intro text is only needed on the home page. It is the company's about section.
