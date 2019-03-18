@@ -3,6 +3,8 @@
   <div class="hero-banner-content absolute">
     <h1 class="nina push-1-2">{{include.heading}}</h1>
     <p class="push-1-2">{{include.text}}</p>
-    {% pattern buttons/ghost %}
+    {% if include.button_url %}
+      {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

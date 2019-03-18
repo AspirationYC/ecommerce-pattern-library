@@ -1,6 +1,14 @@
 ---
 layout: default
 title: Products
+highlight_nav: products
 ---
 
 {% pattern banner/banner heading="New Weapons" text="This week, we received 3 new kinds of weapon that are brought from Europe. They look amazing! Check them out!" %}
+<div class="grid gutter-1-4">
+  {% for product in site.products %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+  {% endfor %}
+</div>

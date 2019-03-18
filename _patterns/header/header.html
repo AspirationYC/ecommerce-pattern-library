@@ -9,8 +9,8 @@
   </div>
   <div class="header-nav">
     <ul class="list-group-inline">
-      <li><a class="gutter-1-2 island-1-2 active" href="/index/">Home</a></li>
-      <li><a class="gutter-1-2 island-1-2" href="/products/">All Weapons</a></li>
+      <li><a class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'index' %}active{% endif %}" href="/index/">Home</a></li>
+      <li><a class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'products' %}active{% endif %}" href="/products/">All Weapons</a></li>
       <li><a class="gutter-1-2 island-1-2" href="#">Check-out</a></li>
     </ul>
   </div>

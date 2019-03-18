@@ -11,3 +11,12 @@ patterns:
     title: "Ghost"
     description: |
       Ghost buttons should be used for banners only.
+    fields:
+      - name: text
+        type: string
+        example: "View Weapons"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
