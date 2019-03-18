@@ -1,3 +1,7 @@
+title: "Cards List"
+description: |
+  The card list is for every weapon. It brings to the details page.
+
 fields:
   - name: data
     type: object
