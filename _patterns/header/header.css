@@ -1,7 +1,7 @@
 .masthead {
   overflow: hidden;
   background-color: #000;
-  padding: 20px 10px;
+  padding: 10px 0 0;
 }
 
 .masthead a {
@@ -27,6 +27,10 @@
 
 .header-nav {
   float: right;
+}
+
+.header-nav ul {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 500px) {
