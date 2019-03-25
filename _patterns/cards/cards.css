@@ -2,3 +2,7 @@
   border: 3px solid var(--color-primary);
   border-radius: 10px;
 }
+
+.card-content-left {
+  text-align: left;
+}
