@@ -7,6 +7,18 @@ patterns:
     title: "Basic"
     description: |
       Basic buttons should be used inside card lists or checkout forms.
+    fields:
+      - name: text
+        type: string
+        example: "Buy Now"
+      - name: text
+        type: string
+        example: "Add to Cart"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
   ghost:
     title: "Ghost"
     description: |
@@ -15,7 +27,6 @@ patterns:
       - name: text
         type: string
         example: "View Weapons"
-        required: false
       - name: url
         type: url
         example: "/products/"

@@ -11,6 +11,18 @@ patterns:
     title: "Breadcrumb"
     description: |
       Breadcrumb is graphical element used in website to allow the users to keep track and maintain awareness to where they are located on a web page.
+    fields:
+      - name: weapon_name
+        type: string
+        example: "Banana Staff"
+      - name: weapon_name
+        type: string
+        example: "Flaming Spear"
+        required: false
+      - name: weapon_name
+        type: string
+        example: "Tuna Sword"
+        required: false
   paginator:
     title: "Paginator"
     description: |

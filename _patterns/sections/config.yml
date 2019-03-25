@@ -7,6 +7,33 @@ patterns:
     title: "Detail Lists"
     description: |
       Detail Lists are only needed after the user click on a specific weapon. It will show the name, description, price, and a button to buy.
+    fields:
+      - name: heading
+        type: string
+        example: "Banana Staff"
+      - name: heading
+        type: string
+        example: "Flaming Spear"
+        required: false
+      - name: heading
+        type: string
+        example: "Tuna Sword"
+        required: false
+      - name: text
+        type: string
+        example: "A staff made from 1000 bananas. They attract monkeys and gorillas to you."
+      - name: text
+        type: string
+        example: "A spear made from Demon's Flaming Tail. It is super hot so DO NOT TOUCH IT or you will burn to ashes."
+        required: false
+      - name: text
+        type: string
+        example: "Upper body of a tuna caught from the Atlantic Ocean and the handle is made from steel."
+        required: false
+      - name: price
+        type: int
+        example: "999$"
+
   intro:
     title: "Intro"
     description: |
