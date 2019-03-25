@@ -1,3 +1,4 @@
+# e-commerce-pattern-library
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -17,3 +18,9 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
+---
+
+## Collaborators
+
+- [@AspirationYC] (https://github.com/AspirationYC)
+- [@Jowens96] (https://github.com/Jowens96)
