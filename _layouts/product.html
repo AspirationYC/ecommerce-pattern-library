@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<div class="grid">
+  <div class="unit unit-content-center xs-1 s-1 m-1-2 l-1-2">
+    <img src="{{page.image}}" alt="">
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <h1 class="zetta">{{page.name}}</h1>
+    <p class="giga">{{page.description}}</p>
+  </div>
+</div>
