@@ -26,10 +26,12 @@ layout: default
         <span class="icon-label">Please provide Credit Card Info</span>
       </p>
     </div>
-    <div class="pad-t-1-2">
-      {% pattern forms/radio %}
+    <div class="pad-b-1-2">
+        <legend class="pad-b-1-2 pad-t-1-2">Method of payment</legend>
+        <input type="radio" name="payment" id="visa">
+        <label for="visa">Visa</label>
     </div>
-    <div class="push-0">
+    <div class="">
       <input type="radio" name="payment" id="mastercard">
       <label for="mastercard">Mastercard</label>
     </div>
