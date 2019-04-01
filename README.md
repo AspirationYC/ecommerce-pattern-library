@@ -24,3 +24,4 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 - [@AspirationYC] (https://github.com/AspirationYC)
 - [@Jowens96] (https://github.com/Jowens96)
+- [@RRIOPEL18] (https://github.com/RRIOPEL18)
