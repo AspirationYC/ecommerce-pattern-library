@@ -11,3 +11,11 @@ patterns:
       - name: text
         type: string
         example: "This week, we received 3 new kinds of weapon that are brought from Europe. They look amazing! Check them out!"
+      - name: heading
+        type: string
+        example: "Summer Sale!"
+        required: false
+      - name: text
+        type: string
+        example: "Buy the banana staff or tuna sword for a discount price."
+        required: false

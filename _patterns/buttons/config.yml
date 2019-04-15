@@ -15,6 +15,14 @@ patterns:
         type: string
         example: "Add to Cart"
         required: false
+      - name: text
+        type: string
+        example: "Checkout"
+        required: false
+      - name: text
+        type: string
+        example: "Sign up"
+        required: false
       - name: url
         type: url
         example: "/products/"
@@ -30,4 +38,8 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+        required: false
+      - name: text
+        type: string
+        example: "View Sale"
         required: false

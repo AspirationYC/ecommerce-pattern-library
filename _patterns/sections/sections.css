@@ -27,3 +27,17 @@
 .price-style {
   color: var(--color-primary);
 }
+
+.discount-table-style tr, td {
+  border: 3px solid var(--color-primary);
+}
+
+.table-header {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.promo-alert {
+  background-color: var(--color-hover);
+  color: #fff;
+}

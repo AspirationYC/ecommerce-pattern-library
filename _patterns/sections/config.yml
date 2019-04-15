@@ -38,3 +38,17 @@ patterns:
     title: "Intro"
     description: |
       Intro text is only needed on the home page. It is the company's about section.
+
+  discount-table:
+    title: "Discount Table"
+    description: |
+      A table that is specfically for the surprise page #2 (landing-page). It shouldn't be used in other places.
+
+  promotion:
+    title: "Promotion Alert"
+    description: |
+      Promotion alert that is specifically for the surprise page #2 (landing-page). It shouldn't be used in other places.
+  newsletter:
+    title: "Newsletter Sign up"
+    description: |
+      A newsletter sign up that is specifically for the surprise page #2 (landing-page). It shouldn't be used in other places.
