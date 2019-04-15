@@ -1,17 +1,17 @@
-<header class="masthead" id="back-to-header">
+<header role="banner" class="masthead" id="back-to-header">
   <div class="header-logo">
-    <a class="icon logo-text push-1-2" href="/index/">
+    <a aria-label="Flamisou's logo and it goes back to home page" class="icon logo-text push-1-2" href="/index/">
       <i class="icon i-32">
         <img src="/images/logo-16.svg" alt="">
       </i>
       <span class="icon-label">Flaminsou</span>
     </a>
   </div>
-  <div class="header-nav">
+  <div role="navigation" class="header-nav">
     <ul class="list-group-inline">
-      <li><a class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'index' %}active{% endif %}" href="/index/">Home</a></li>
-      <li><a class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'products' %}active{% endif %}" href="/products/">All Weapons</a></li>
-      <li><a class="gutter-1-2 island-1-2" href="#">Check-out</a></li>
+      <li><a aria-label="Go to home page" class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'index' %}active{% endif %}" href="/index/">Home</a></li>
+      <li><a aria-label="View all weapons"class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'products' %}active{% endif %}" href="/products/">All Weapons</a></li>
+      <li><a aria-label="Go to check-out page" class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'checkout' %}active{% endif %}" href="/checkout/">Check-out</a></li>
     </ul>
   </div>
 </header>

@@ -30,3 +30,7 @@ a {
   font-family: var(--font-secondary);
   color: var(--color-white);
 }
+
+a:focus {
+  outline: 3px solid var(--color-hover);
+}
