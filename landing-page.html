@@ -7,18 +7,34 @@ title: Landing page
 </div>
 
 <div class="push">
-  {% pattern banner/banner heading=	"Summer Sale!" text="Buy the banana staff or tuna sword for a discount price." url="" %}
-  <div>
-  {% pattern buttons/ghost text=	"View Sale" %}
-  </div>
+  {% pattern banner/call-to-action %}
 </div>
 
+<div class="grid pad-t pad-b-2">
 
+  <div class="unit unit-content-center xs-1 s-1 m-1-2 l-1-2 island">
+    <img src="/images/banana-staff.png" alt="">
+    <h1>Banana Staff</h1>
+    <p>A staff made from 1000 bananas. They attract monkeys and gorillas to you.</p>
+    <p class="milli">Price: $999</p>
+    <a class="btn" href="/checkout/">Add to Cart</a>
+  </div>
+
+  <div class="unit unit-content-center xs-1 s-1 m-1-2 l-1-2 island">
+    <img src="/images/tuna-sword.png" alt="">
+    <h1>Tuna Sword</h1>
+    <p>Upper body of a tuna caught from the Atlantic Ocean and the handle is made from steel.</p>
+    <p class="milli">Price: $999</p>
+    <a class="btn" href="/checkout/">Add to Cart</a>
+  </div>
+
+</div>
 
 <div class="push-2">
+  <h2 class="push text-center">Discount Table</h2>
   {% pattern sections/discount-table %}
 </div>
 
-<div class="unit-m-centered pad-b">
+<div class="unit-content-center pad-b">
   {% pattern sections/newsletter %}
 </div>

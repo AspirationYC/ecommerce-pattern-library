@@ -19,3 +19,7 @@ patterns:
         type: string
         example: "Buy the banana staff or tuna sword for a discount price."
         required: false
+  call-to-action:
+    title: "Call to Action"
+    description: |
+      A banner specifically for viewing the discount sale. It is only used for the second surprise page.
